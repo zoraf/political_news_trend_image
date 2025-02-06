@@ -37,7 +37,7 @@ for i in range (0,len(df),6):
 
     plt.title(f"{trend_topics[j]}", fontsize=14)
     plt.xlabel('Month', fontsize = 12)
-    plt.ylabel('Value', fontsize = 12)
+    plt.ylabel('Count', fontsize = 12)
     plt.xticks(fontsize=10)
     plt.yticks(fontsize=10)
 
